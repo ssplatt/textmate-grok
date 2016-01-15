@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>fjrrg.oergg@tznvy.pbz</string>
+	<key>contactName</key>
+	<string>Brett Taylor</string>
+	<key>description</key>
+	<string>New shiny bundle for Grok patterns.</string>
+	<key>name</key>
+	<string>Grok</string>
+	<key>uuid</key>
+	<string>78537CD2-268C-4BC1-88E5-772E5AF59C4E</string>
+</dict>
+</plist>

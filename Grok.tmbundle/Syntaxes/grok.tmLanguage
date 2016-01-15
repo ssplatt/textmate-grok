@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array/>
+	<key>name</key>
+	<string>grok</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^#[^\n]+\n</string>
+			<key>name</key>
+			<string>comment.line.number-sign.grok</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>^[A-Z0-9_\-]+</string>
+			<key>end</key>
+			<string>\s</string>
+			<key>name</key>
+			<string>variable.parameter.grok</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>%{</string>
+			<key>end</key>
+			<string>}</string>
+			<key>name</key>
+			<string>variable.other.grok</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>^[A-Z0-9_\-]+\s</string>
+			<key>end</key>
+			<string>\n</string>
+			<key>name</key>
+			<string>string.regexp.grok</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.untitled</string>
+	<key>uuid</key>
+	<string>E133D6EF-2C0A-425D-AB2C-E4D191164736</string>
+</dict>
+</plist>
